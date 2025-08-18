@@ -206,5 +206,8 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# Excluding the entire dataset, will include a sample
-data/
+# ignore all big data by default
+data/*
+# but keep small samples and a folder marker
+!data/*sample*.csv
+!data/.gitkeep
