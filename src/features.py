@@ -38,7 +38,7 @@ def avg_sentence_length(text: str) -> float:
     return float(np.mean(lengths)) if lengths else 0.0
 
 # type token ratio: unique words / total words for vocab richness
-#! may use length-aware variants of this in the future
+#* may use length-aware variants of this in the future
 def type_token_ratio(text: str) -> float:
     toks = _words(text)
     n = len(toks)
