@@ -18,6 +18,7 @@ The dataset is the [HC3 corpus](https://huggingface.co/datasets/Hello-SimpleAI/H
 
 ## Project structure
 
+``` bash
 hc3-detector/
 ├── src/
 │ ├── get_data.py # download and save dataset
@@ -30,6 +31,7 @@ hc3-detector/
 ├── results/ # metrics and plots
 ├── requirements.txt # dependencies
 └── README.md
+```
 
 ---
 
